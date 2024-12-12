@@ -39,7 +39,7 @@ El proyecto se encuentra dividido en cuatro entregas principales:
 * **Librería Gráfica:** JavaFX
 
 
-### OBTENER PROYECTO
+### OBTENER PROYECTO FINAL
 
 1. **Clonar el repositorio:**
    ```bash
