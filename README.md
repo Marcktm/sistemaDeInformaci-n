@@ -44,3 +44,4 @@ El proyecto se encuentra dividido en cuatro entregas principales:
 1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/Marcktm/sistemaDeInformacion.git
+```
