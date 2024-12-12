@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="MainMenuTest" time="2.263" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="javafx.runtime.version" value="20+19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Marck\proyectos\supercharger\superchargerApp\target\test-classes;C:\Users\Marck\proyectos\supercharger\superchargerApp\target\classes;C:\Users\Marck\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\Marck\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marck\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\Marck\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marck\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20-win.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Marck\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Marck\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Marck\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Marck\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Marck\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Marck\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Marck\.m2\repository\org\hibernate\orm\hibernate-core\6.2.10.Final\hibernate-core-6.2.10.Final.jar;C:\Users\Marck\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Marck\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Marck\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Marck\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Marck\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\Marck\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Marck\.m2\repository\net\bytebuddy\byte-buddy\1.14.7\byte-buddy-1.14.7.jar;C:\Users\Marck\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Marck\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Marck\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Marck\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Marck\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Marck\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\Marck\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\Marck\.m2\repository\org\testfx\testfx-core\4.0.16-alpha\testfx-core-4.0.16-alpha.jar;C:\Users\Marck\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Marck\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\Marck\.m2\repository\org\testfx\testfx-junit5\4.0.16-alpha\testfx-junit5-4.0.16-alpha.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="javafx.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\Marck\AppData\Local\Temp\surefire12280313859523080883\surefirebooter-20241207220905144_3.jar C:\Users\Marck\AppData\Local\Temp\surefire12280313859523080883 2024-12-07T22-09-05_027-jvmRun1 surefire-20241207220905144_1tmp surefire_0-20241207220905144_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Marck\proyectos\supercharger\superchargerApp\target\test-classes;C:\Users\Marck\proyectos\supercharger\superchargerApp\target\classes;C:\Users\Marck\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\Marck\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Marck\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\Marck\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Marck\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20.jar;C:\Users\Marck\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20-win.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Marck\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Marck\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Marck\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Marck\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Marck\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Marck\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Marck\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Marck\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Marck\.m2\repository\org\hibernate\orm\hibernate-core\6.2.10.Final\hibernate-core-6.2.10.Final.jar;C:\Users\Marck\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Marck\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Marck\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Marck\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Marck\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\Marck\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Marck\.m2\repository\net\bytebuddy\byte-buddy\1.14.7\byte-buddy-1.14.7.jar;C:\Users\Marck\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Marck\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Marck\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Marck\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Marck\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Marck\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Marck\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\Marck\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\Marck\.m2\repository\org\testfx\testfx-core\4.0.16-alpha\testfx-core-4.0.16-alpha.jar;C:\Users\Marck\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Marck\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\Marck\.m2\repository\org\testfx\testfx-junit5\4.0.16-alpha\testfx-junit5-4.0.16-alpha.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Marck"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Marck\proyectos\supercharger\superchargerApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Marck\AppData\Local\Temp\surefire12280313859523080883\surefirebooter-20241207220905144_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="Marck"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Marck\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Marck\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\Marck\proyectos\supercharger\superchargerApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\maven\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\Marck\AppData\Local\Microsoft\WindowsApps;C:\Users\Marck\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testBotonSolicitarTurno" classname="MainMenuTest" time="1.711">
+    <error message="there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@1be8efee[styleClass=root]],&#10;lookup by function: &quot;org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@77856cc5&quot;,&#10;lookup by text: &quot;Solicitud de Turno&quot;" type="org.testfx.service.query.EmptyNodeQueryException"><![CDATA[org.testfx.service.query.EmptyNodeQueryException: 
+there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@1be8efee[styleClass=root]],
+lookup by function: "org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@77856cc5",
+lookup by text: "Solicitud de Turno"
+	at org.testfx.service.query.impl.NodeQueryImpl.queryAs(NodeQueryImpl.java:142)
+	at MainMenuTest.testBotonSolicitarTurno(MainMenuTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></error>
+    <system-out><![CDATA[Hibernate: 
+    /* select
+        count(c) 
+    from
+        Cliente c 
+    where
+        c.documento = :documento */ select
+            count(c1_0.id) 
+        from
+            Cliente c1_0 
+        where
+            c1_0.documento=?
+Hibernate: 
+    /* insert for
+        com.supercharger.model.Cliente */insert 
+    into
+        Cliente (documento,nombre,telefono,id) 
+    values
+        (?,?,?,default)
+Cliente de prueba añadido.
+Base de datos inicializada correctamente.
+]]></system-out>
+    <system-err><![CDATA[dic 07, 2024 10:09:08 P. M. com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5579bb86'
+]]></system-err>
+  </testcase>
+  <testcase name="testBotonRegistrarAsistencia" classname="MainMenuTest" time="0.523">
+    <error message="there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@43265d68[styleClass=root]],&#10;lookup by function: &quot;org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@429f0ca8&quot;,&#10;lookup by text: &quot;Registro de Asistencia&quot;" type="org.testfx.service.query.EmptyNodeQueryException"><![CDATA[org.testfx.service.query.EmptyNodeQueryException: 
+there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@43265d68[styleClass=root]],
+lookup by function: "org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@429f0ca8",
+lookup by text: "Registro de Asistencia"
+	at org.testfx.service.query.impl.NodeQueryImpl.queryAs(NodeQueryImpl.java:142)
+	at MainMenuTest.testBotonRegistrarAsistencia(MainMenuTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></error>
+    <system-err><![CDATA[Error al inicializar la base de datos: EntityManagerFactory is closed
+java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:638)
+	at org.hibernate.internal.SessionFactoryImpl.getCache(SessionFactoryImpl.java:911)
+	at org.hibernate.internal.AbstractSharedSessionContract.<init>(AbstractSharedSessionContract.java:166)
+	at org.hibernate.internal.SessionImpl.<init>(SessionImpl.java:218)
+	at org.hibernate.internal.SessionFactoryImpl$SessionBuilderImpl.openSession(SessionFactoryImpl.java:1299)
+	at org.hibernate.internal.SessionFactoryImpl.openSession(SessionFactoryImpl.java:577)
+	at org.hibernate.internal.SessionFactoryImpl.openSession(SessionFactoryImpl.java:155)
+	at com.supercharger.MainMenu.initializeDatabase(MainMenu.java:61)
+	at com.supercharger.MainMenu.start(MainMenu.java:22)
+	at MainMenuTest.start(MainMenuTest.java:12)
+	at org.testfx.framework.junit5.ApplicationAdapter.start(ApplicationAdapter.java:37)
+	at org.testfx.toolkit.impl.ApplicationServiceImpl.lambda$start$0(ApplicationServiceImpl.java:49)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,90 @@
+-------------------------------------------------------------------------------
+Test set: com.supercharger.functional.SolicitudTurnoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.369 s <<< FAILURE! -- in com.supercharger.functional.SolicitudTurnoTest
+com.supercharger.functional.SolicitudTurnoTest.testIngresarSolicitudTurno -- Time elapsed: 0.191 s <<< ERROR!
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at org.testfx.util.WaitForAsyncUtils.waitFor(WaitForAsyncUtils.java:301)
+	at org.testfx.api.FxToolkit.waitForSetup(FxToolkit.java:244)
+	at org.testfx.api.FxToolkit.setupApplication(FxToolkit.java:153)
+	at org.testfx.framework.junit5.ApplicationTest.internalBefore(ApplicationTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.testfx.util.WaitForAsyncUtils$ASyncFXCallable.get(WaitForAsyncUtils.java:696)
+	at org.testfx.toolkit.impl.ToolkitServiceImpl.lambda$setupApplication$6(ToolkitServiceImpl.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at com.supercharger.MainMenu.initializeDatabase(MainMenu.java:67)
+	at com.supercharger.MainMenu.start(MainMenu.java:27)
+	at com.supercharger.functional.SolicitudTurnoTest.start(SolicitudTurnoTest.java:14)
+	at org.testfx.framework.junit5.ApplicationAdapter.start(ApplicationAdapter.java:37)
+	at org.testfx.toolkit.impl.ApplicationServiceImpl.lambda$start$0(ApplicationServiceImpl.java:49)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	... 1 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError: Failed to create SessionFactory. Check configuration and logs. [in thread "main"]
+	at com.supercharger.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:28)
+	at com.supercharger.util.HibernateUtil.<clinit>(HibernateUtil.java:12)
+	at com.supercharger.dao.TurnoDAO.eliminarTodos(TurnoDAO.java:62)
+	at com.supercharger.dao.TurnoDAOTest.setup(TurnoDAOTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.supercharger.functional.SolicitudTurnoTest.testCamposVacios -- Time elapsed: 0.174 s <<< ERROR!
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at org.testfx.util.WaitForAsyncUtils.waitFor(WaitForAsyncUtils.java:301)
+	at org.testfx.api.FxToolkit.waitForSetup(FxToolkit.java:244)
+	at org.testfx.api.FxToolkit.setupApplication(FxToolkit.java:153)
+	at org.testfx.framework.junit5.ApplicationTest.internalBefore(ApplicationTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.testfx.util.WaitForAsyncUtils$ASyncFXCallable.get(WaitForAsyncUtils.java:696)
+	at org.testfx.toolkit.impl.ToolkitServiceImpl.lambda$setupApplication$6(ToolkitServiceImpl.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at com.supercharger.MainMenu.initializeDatabase(MainMenu.java:67)
+	at com.supercharger.MainMenu.start(MainMenu.java:27)
+	at com.supercharger.functional.SolicitudTurnoTest.start(SolicitudTurnoTest.java:14)
+	at org.testfx.framework.junit5.ApplicationAdapter.start(ApplicationAdapter.java:37)
+	at org.testfx.toolkit.impl.ApplicationServiceImpl.lambda$start$0(ApplicationServiceImpl.java:49)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	... 1 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError: Failed to create SessionFactory. Check configuration and logs. [in thread "main"]
+	at com.supercharger.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:28)
+	at com.supercharger.util.HibernateUtil.<clinit>(HibernateUtil.java:12)
+	at com.supercharger.dao.TurnoDAO.eliminarTodos(TurnoDAO.java:62)
+	at com.supercharger.dao.TurnoDAOTest.setup(TurnoDAOTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

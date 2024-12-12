@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.supercharger.dao.TurnoDAOTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.456 s <<< FAILURE! -- in com.supercharger.dao.TurnoDAOTest
+com.supercharger.dao.TurnoDAOTest.testGuardarTurno -- Time elapsed: 1.426 s <<< ERROR!
+java.lang.ExceptionInInitializerError: Failed to create SessionFactory. Check configuration and logs.
+	at com.supercharger.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:28)
+	at com.supercharger.util.HibernateUtil.<clinit>(HibernateUtil.java:12)
+	at com.supercharger.dao.TurnoDAO.eliminarTodos(TurnoDAO.java:62)
+	at com.supercharger.dao.TurnoDAOTest.setup(TurnoDAOTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.supercharger.dao.TurnoDAOTest.testObtenerTurnos -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.supercharger.util.HibernateUtil
+	at com.supercharger.dao.TurnoDAO.eliminarTodos(TurnoDAO.java:62)
+	at com.supercharger.dao.TurnoDAOTest.setup(TurnoDAOTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError: Failed to create SessionFactory. Check configuration and logs. [in thread "main"]
+	at com.supercharger.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:28)
+	at com.supercharger.util.HibernateUtil.<clinit>(HibernateUtil.java:12)
+	... 5 more
+

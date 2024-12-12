@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: MainMenuTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.263 s <<< FAILURE! -- in MainMenuTest
+MainMenuTest.testBotonSolicitarTurno -- Time elapsed: 1.711 s <<< ERROR!
+org.testfx.service.query.EmptyNodeQueryException: 
+there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@1be8efee[styleClass=root]],
+lookup by function: "org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@77856cc5",
+lookup by text: "Solicitud de Turno"
+	at org.testfx.service.query.impl.NodeQueryImpl.queryAs(NodeQueryImpl.java:142)
+	at MainMenuTest.testBotonSolicitarTurno(MainMenuTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+MainMenuTest.testBotonRegistrarAsistencia -- Time elapsed: 0.523 s <<< ERROR!
+org.testfx.service.query.EmptyNodeQueryException: 
+there is no node in the scene-graph matching the query: NodeQuery: from nodes: [VBox@43265d68[styleClass=root]],
+lookup by function: "org.testfx.util.NodeQueryUtils$$Lambda/0x0000016003813208@429f0ca8",
+lookup by text: "Registro de Asistencia"
+	at org.testfx.service.query.impl.NodeQueryImpl.queryAs(NodeQueryImpl.java:142)
+	at MainMenuTest.testBotonRegistrarAsistencia(MainMenuTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

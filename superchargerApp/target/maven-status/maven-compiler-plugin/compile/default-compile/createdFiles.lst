@@ -1,0 +1,16 @@
+com\supercharger\command\ConfirmarTurnoCommand.class
+com\supercharger\util\HibernateUtil.class
+com\supercharger\dao\TurnoDAO.class
+com\supercharger\model\FichaMecanica.class
+com\supercharger\model\Cliente.class
+com\supercharger\RegistroAsistencia.class
+com\supercharger\dao\InformeMensualDAO.class
+com\supercharger\model\Turno.class
+com\supercharger\dao\ClienteDAO.class
+com\supercharger\InformesMensuales.class
+com\supercharger\model\InformeMensual.class
+com\supercharger\dao\FichaMecanicaDAO.class
+com\supercharger\MainMenu.class
+com\supercharger\SolicitudTurno.class
+com\supercharger\FichaMecanica.class
+com\supercharger\Listados.class
